@@ -1,9 +1,10 @@
-package com.codingwithme.shoppinglistapp
+package com.codingwithme.shoppinglistapp.data.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.codingwithme.shoppinglistapp.data.db.entityes.ShoppingItem
 
 @Database(
     entities = [ShoppingItem::class],
